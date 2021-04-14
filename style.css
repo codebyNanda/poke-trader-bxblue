@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #05668D, #F3FCF0);
+}
+
+main {
+    background-color: #FDFFFC;
+    border-radius: 10px;
+    width: 550px;
+    padding: 13px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    font-size: 28px;
+}
+
+p {
+    text-align: center;
+}
+
+div#botao {
+    text-align: center;
+    padding: 2px;
+}
+
+th {
+    align-items: center;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+}

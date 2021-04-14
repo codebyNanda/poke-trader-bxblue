@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Poke Trader</title>
+</head>
+<body>
+    <main>
+        <h1>Seja bem-vindo ao Poke Trader! &#x1F3B2; &#x2728;</h1>
+        <p>Troque seus Pokemons abaixo! </p>
+        <p><strong>Limite de 30 pontos para uma troca justa.</strong></p>
+        
+        <div id='botao'>
+            <input type="text" placeholder="Digite um Pokemon" id="idPokemon1">
+            <input type="text" placeholder="Digite um Pokemon" id="idPokemon2">
+            <input type="button" value="Trocar" id="trocar">
+        </div>
+        
+        <div id="parecer"></div>
+        
+        <center>
+            <div id="erro"></div>
+                <div id="tabela">
+                    <table id="historico">
+                        <tr>
+                            <th>Pokemon 1:</th>
+                            <th>Pokemon 2:</th>
+                            <th>Resultado:</th>
+                        </tr>
+                    </table>
+                </div>
+        </center>
+         
+    </main>
+    <footer>
+        <strong>Desenvolvido por Ananda Ferreira</strong>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
